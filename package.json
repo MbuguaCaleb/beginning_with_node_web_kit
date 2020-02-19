@@ -1,0 +1,25 @@
+{
+  "name": "beginning_with_node_web_kit",
+  "version": "1.0.0",
+  "description": "A javascript library that enables us to create native desktop applications using web applications.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nw src/",
+    "prod": "nwbuild --platforms win32,win64,osx64,linux32,linux64 --buildDir dist/ src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MbuguaCaleb/beginning_with_node_web_kit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MbuguaCaleb/beginning_with_node_web_kit/issues"
+  },
+  "homepage": "https://github.com/MbuguaCaleb/beginning_with_node_web_kit#readme",
+  "devDependencies": {
+    "nw": "^0.44.1-sdk",
+    "nw-builder": "^3.5.7"
+  }
+}
